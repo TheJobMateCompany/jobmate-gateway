@@ -1,0 +1,38 @@
+{
+  "name": "jobmate-gateway",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheJobMateCompany/jobmate-gateway.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheJobMateCompany/jobmate-gateway/issues"
+  },
+  "homepage": "https://github.com/TheJobMateCompany/jobmate-gateway#readme",
+  "dependencies": {
+    "@apollo/server": "^5.4.0",
+    "@bufbuild/protobuf": "^2.11.0",
+    "@grpc/grpc-js": "^1.14.3",
+    "cors": "^2.8.6",
+    "dotenv": "^17.2.3",
+    "graphql": "^16.12.0",
+    "long": "^5.3.2",
+    "nice-grpc": "^2.1.14",
+    "protobufjs": "^8.0.0",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "@types/node": "^25.2.0",
+    "nodemon": "^3.1.11",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
